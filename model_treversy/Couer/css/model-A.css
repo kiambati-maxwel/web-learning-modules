@@ -1,0 +1,183 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(27, 26, 26);
+    background-color: mintcream;
+}
+/* ================grid================= */
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 97%;
+    overflow: hidden;
+}
+
+/* ================ header =============== */
+.primary-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0;
+   
+    
+}
+
+
+.logo{
+    border: solid 1px black;
+    border-radius: 100%;
+    padding: 10px;
+    display: inline-block;
+    
+}
+.primary-header a{
+    color: black;
+}
+
+ .log-banner{
+     
+    float: left;
+    /* background: rgb(3, 3, 59); */
+} 
+
+/* ================ navigation =========== */
+.nav-primary{
+    box-sizing: border-box;
+    padding: 22px;
+    
+
+
+}
+.nav li{
+    display: inline;
+    padding-right: 10px;
+}
+.nav{
+    list-style: none;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: .5px;
+}
+.nav-primary ul {
+    
+    float: right;
+}
+.nav-primaryfooter ul{
+    float: right;
+}
+.nav-primaryfooter{
+    display: inline;
+}
+/* =============== footer =============== */
+.primary-footer{
+    margin-top: 50px;
+    box-sizing: border-box;
+    color: white;
+}
+.primary-footer a{
+   font-size: small;
+   color: white;
+}
+.primary-footer small{
+    float: left;
+    padding-top: 22px;
+    padding-left: 40px;
+}
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.btn {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+  
+  }
+  .btn-alt {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: rgb(34, 33, 33);
+    
+  }
+  .btn-alt:hover{
+    background: #fff;
+    color: #648880;
+  }
+
+/* ============= show case ==== */
+.hero {
+    background: rgb(3, 3, 59);
+    padding-bottom: 22px;
+}
+.show-case{
+    color: white;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: .6px;
+    font-size: 18px;
+    line-height: 50px;
+
+}
+
+/* ============== main ========== */
+
+.main{
+    
+    width: 55%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(47, 47, 47);
+    padding-right: 30px;
+    /* border: solid .5px black ; */
+    border-radius: 5%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    /* height: 400px; */
+    overflow: hidden;
+    margin-right: 15px; 
+    background: white;
+    
+    
+}
+
+.aside-bar{
+    width: 40%;
+    float: right;
+    /* border: solid .01px black ; */
+    border-radius: 5%;
+     height: 400px;
+    /* overflow: hidden; */
+    
+}
+
+/* =========responsive======= */
+@media(max-width: 600px){
+    .main{
+        width: 100%;
+        float: none;
+    }
+    .aside-bar{
+        width: 100%;
+        float: none;
+    }
+}
+
+
